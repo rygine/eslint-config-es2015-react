@@ -15,7 +15,7 @@ module.exports = {
     // Require Dot Notation
     // http://eslint.org/docs/rules/dot-notation
     "dot-notation": [2, {
-      "allowKeywords": true
+      "allowKeywords": true,
     }],
     // Enforce newline before and after dot
     // http://eslint.org/docs/rules/dot-lotation
@@ -98,7 +98,7 @@ module.exports = {
     // Disallow Reassignment of Function Parameters
     // http://eslint.org/docs/rules/no-param-reassign
     "no-param-reassign": [2, {
-      "props": true
+      "props": true,
     }],
     // Disallow Use of __proto__
     // http://eslint.org/docs/rules/no-proto

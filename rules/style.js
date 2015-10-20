@@ -9,18 +9,18 @@ module.exports = {
     // Enforce Brace Style
     // http://eslint.org/docs/rules/brace-style
     "brace-style": [2, "1tbs", {
-      "allowSingleLine": false
+      "allowSingleLine": false,
     }],
     // Require camelCase, except for property names
     // http://eslint.org/docs/rules/camelcase
     "camelcase": [2, {
-      "properties": "never"
+      "properties": "never",
     }],
     // Enforce spacing around commas
     // http://eslint.org/docs/rules/comma-spacing
     "comma-spacing": [2, {
       "before": false,
-      "after": true
+      "after": true,
     }],
     // Enforce Comma Style
     // http://eslint.org/docs/rules/comma-style
@@ -41,18 +41,18 @@ module.exports = {
     // http://eslint.org/docs/rules/id-length
     "id-length": [2, {
       "min": 2,
-      "exceptions": ["i"]
+      "exceptions": ["i"],
     }],
     // Enforce Indentation
     // http://eslint.org/docs/rules/indent
     "indent": [2, 2, {
-      "SwitchCase": 1
+      "SwitchCase": 1,
     }],
     // Enforce Property Spacing
     // http://eslint.org/docs/rules/key-spacing
     "key-spacing": [2, {
       "beforeColon": false,
-      "afterColon": true
+      "afterColon": true,
     }],
     // Enforce Maximum Depth of Nested Callbacks
     // http://eslint.org/docs/rules/max-nested-callbacks
@@ -61,7 +61,7 @@ module.exports = {
     // http://eslint.org/docs/rules/new-cap
     "new-cap": [2, {
       "newIsCap": true,
-      "capIsNew": false
+      "capIsNew": false,
     }],
     // Require Parens for Constructors
     // http://eslint.org/docs/rules/new-parens
@@ -75,7 +75,7 @@ module.exports = {
     // Disallow multiple blank lines
     // http://eslint.org/docs/rules/no-multiple-empty-lines
     "no-multiple-empty-lines": [2, {
-      "max": 2
+      "max": 2,
     }],
     // Disallow Nested Ternaries
     // http://eslint.org/docs/rules/no-nested-ternary
@@ -114,7 +114,7 @@ module.exports = {
     // http://eslint.org/docs/rules/semi-spacing
     "semi-spacing": [2, {
       "before": false,
-      "after": true
+      "after": true,
     }],
     // Enforce Semicolons
     // http://eslint.org/docs/rules/semi
@@ -144,7 +144,7 @@ module.exports = {
     // http://eslint.org/docs/rules/space-unary-ops
     "space-unary-ops": [1, {
       "words": true,
-      "nonwords": false
+      "nonwords": false,
     }],
   },
 };

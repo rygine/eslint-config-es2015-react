@@ -9,6 +9,11 @@ This package provides an .eslintrc file as an extensible shared config.
 
 ## Usage
 
+To lint the rules, run the following commands:
+
+1. `npm i`
+2. `npm run lint`
+
 This package exports 3 configurations for ESLint.
 
 ### eslint-config-es2015-react

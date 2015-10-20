@@ -7,7 +7,7 @@ module.exports = {
     // http://eslint.org/docs/rules/arrow-spacing
     "arrow-spacing": [2, {
       "before": true,
-      "after": true
+      "after": true,
     }],
     // Verify calls of super() in constructors
     // http://eslint.org/docs/rules/constructor-super
@@ -16,7 +16,7 @@ module.exports = {
     // http://eslint.org/docs/rules/generator-star-spacing
     "generator-star-spacing": [2, {
       "before": false,
-      "after": true
+      "after": true,
     }],
     // Disallow duplicate name in class members
     // http://eslint.org/docs/rules/no-dupe-class-members

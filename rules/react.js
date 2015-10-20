@@ -6,7 +6,7 @@ module.exports = {
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/display-name": [2, {
-      "acceptTranspilerName": true
+      "acceptTranspilerName": true,
     }],
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
@@ -15,7 +15,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     "react/jsx-closing-bracket-location": [2, {
       "nonEmpty": "after-props",
-      "selfClosing": "after-props"
+      "selfClosing": "after-props",
     }],
     // Disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
@@ -59,7 +59,7 @@ module.exports = {
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
     "react/prop-types": [2, {
-      "ignore": ["className"]
+      "ignore": ["className"],
     }],
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
@@ -93,8 +93,8 @@ module.exports = {
         "/^on.+$/",
         "/^get.+$/",
         "/^render.+$/",
-        "render"
-      ]
+        "render",
+      ],
     }],
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md

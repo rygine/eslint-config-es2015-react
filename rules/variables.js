@@ -21,7 +21,7 @@ module.exports = {
       // global variables to be unused
       "vars": "local",
       // only the last argument must be used
-      "args": "after-used"
+      "args": "after-used",
     }],
   },
 };

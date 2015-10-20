@@ -12,7 +12,7 @@ module.exports = {
   "parser": "babel-eslint",
   "plugins": [
     // https://github.com/yannickcr/eslint-plugin-react
-    "react"
+    "react",
   ],
   // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
   "env": {
@@ -27,5 +27,5 @@ module.exports = {
     // enable ES6 modules and global strict mode
     "modules": true,
   },
-  "rules": {}
+  "rules": {},
 };

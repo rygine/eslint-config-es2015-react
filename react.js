@@ -3,7 +3,7 @@ module.exports = {
   "parser": "babel-eslint",
   "plugins": [
     // https://github.com/yannickcr/eslint-plugin-react
-    "react"
+    "react",
   ],
   // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
   "env": {
@@ -24,5 +24,5 @@ module.exports = {
   "extends": [
     "eslint-config-es2015-react/rules/react",
   ],
-  rules: {}
+  "rules": {},
 };
