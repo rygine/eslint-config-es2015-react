@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-es2015-react/base",
+  "rules": {
+    "quote-props": [2, "always"],
+    "quotes": [2, "double", "avoid-escape"]
+  }
+}
