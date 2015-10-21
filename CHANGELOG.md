@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+Fixed exports
+
 ## 0.1.1
 
 * Fixed linting errors

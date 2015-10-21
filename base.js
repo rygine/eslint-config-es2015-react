@@ -10,10 +10,6 @@ module.exports = {
   ],
   // https://github.com/babel/babel-eslint
   "parser": "babel-eslint",
-  "plugins": [
-    // https://github.com/yannickcr/eslint-plugin-react
-    "react",
-  ],
   // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
   "env": {
     // browser global variables
