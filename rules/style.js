@@ -120,11 +120,11 @@ module.exports = {
     // http://eslint.org/docs/rules/semi
     "semi": [2, "always"],
     // Require a space after keywords
-    // http://eslint.org/docs/rules/space-after-keywords
-    "space-after-keywords": 2,
-    // Require a space before keywords
-    // http://eslint.org/docs/rules/space-before-keywords
-    "space-before-keywords": [2, "always"],
+    // http://eslint.org/docs/rules/keyword-spacing
+    "keyword-spacing": [2, {
+      "before": true,
+      "after": true,
+    }],
     // Require Space Before Blocks
     // http://eslint.org/docs/rules/space-before-blocks
     "space-before-blocks": [2, "always"],
@@ -137,9 +137,6 @@ module.exports = {
     // Require Spaces Around Infix Operators
     // http://eslint.org/docs/rules/space-infix-ops
     "space-infix-ops": 2,
-    // Require spaces following return, throw, and case
-    // http://eslint.org/docs/rules/space-return-throw-case
-    "space-return-throw-case": 2,
     // Require or disallow spaces before/after unary operators
     // http://eslint.org/docs/rules/space-unary-ops
     "space-unary-ops": [1, {
