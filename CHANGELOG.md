@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+* Upgrade dependencies
+* Add yarn.lock file
+
 ## 0.1.2
 
 Fixed exports

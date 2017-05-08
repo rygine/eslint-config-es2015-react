@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-es2015-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An opinionated ESLint config for ES2015 and React",
   "main": "index.js",
   "scripts": {
