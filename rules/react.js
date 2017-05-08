@@ -6,7 +6,7 @@ module.exports = {
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/display-name": [2, {
-      "acceptTranspilerName": true,
+      "ignoreTranspilerName": true,
     }],
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
@@ -40,7 +40,7 @@ module.exports = {
     "react/no-danger": 2,
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-    "react/no-did-mount-set-state": [2, "allow-in-func"],
+    "react/no-did-mount-set-state": 2,
     // Prevent usage of setState in componentDidUpdate
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
     "react/no-did-update-set-state": 2,
@@ -96,8 +96,5 @@ module.exports = {
         "render",
       ],
     }],
-    // Prevent missing parentheses around multilines JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-    "react/wrap-multilines": 2,
   },
 };
