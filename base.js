@@ -1,12 +1,12 @@
 module.exports = {
   "extends": [
-    "eslint-config-es2015-react/rules/best-practices",
-    "eslint-config-es2015-react/rules/errors",
-    "eslint-config-es2015-react/rules/es2015",
-    "eslint-config-es2015-react/rules/legacy",
-    "eslint-config-es2015-react/rules/strict",
-    "eslint-config-es2015-react/rules/style",
-    "eslint-config-es2015-react/rules/variables",
+    "./rules/best-practices.js",
+    "./rules/errors.js",
+    "./rules/es2015.js",
+    "./rules/legacy.js",
+    "./rules/strict.js",
+    "./rules/style.js",
+    "./rules/variables.js",
   ],
   // https://github.com/babel/babel-eslint
   "parser": "babel-eslint",
@@ -19,9 +19,12 @@ module.exports = {
     // Node.js global variables and Node.js-specific rules
     "node": true,
   },
-  "ecmaFeatures": {
-    // enable ES6 modules and global strict mode
-    "modules": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+    },
   },
   "rules": {},
 };

@@ -11,18 +11,18 @@ module.exports = {
     "browser": true,
     // enable all ECMAScript 6 features except for modules
     "es6": true,
-    // Jest global variables
-    // https://facebook.github.io/jest/
-    "jest": true,
+    // Node.js global variables and Node.js-specific rules
+    "node": true,
   },
-  "ecmaFeatures": {
-    // enable ES6 modules and global strict mode
-    "modules": true,
-    // enable JSX
-    "jsx": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+    },
   },
   "extends": [
-    "eslint-config-es2015-react/rules/react",
+    "./rules/react.js",
   ],
   "rules": {},
 };
